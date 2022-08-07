@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="header">
+    <nav>
+      <a *ngIf="loggedIn" routerLink="/admin" routerLinkActive="active">Admin</a>
+      <a *ngIf="loggedIn" routerLink="/user" routerLinkActive="active">User</a>
+      <button *ngIf="!loggedIn" (click)="login()">Zaloguj</button>
+      <button *ngIf="loggedIn" (click)="logout()">Wyloguj</button>
+    </nav>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="footer">
+    <a>Michal Dziarmaga</a>
+  </div>
+</div>
