@@ -40,7 +40,7 @@ const keycloakConfig: KeycloakConfig = {
 };
 ```
 
-### STEP 5- Okta with keycloak integation
+### STEP 6- Okta with keycloak integation
 
 https://ultimatesecurity.pro/post/okta-saml/
 
