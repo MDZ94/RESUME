@@ -38,8 +38,9 @@ const keycloakConfig: KeycloakConfig = {
   realm: '????',
   clientId: '????',
 };
+```
 
-### STEP 6 - Okta with keycloak integation
+### STEP 5- Okta with keycloak integation
 
 https://ultimatesecurity.pro/post/okta-saml/
 
