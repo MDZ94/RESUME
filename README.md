@@ -16,7 +16,7 @@ The aim of creation this project is to create simple Frontend application with A
 
 Clone repository
 
-### STEP 2 - Install Required Depedencies
+### STEP 2 - Installation of Required Depedencies
 
 npm - install
 
@@ -28,7 +28,7 @@ https://www.keycloak.org/downloads
 
 https://www.keycloak.org/getting-started/getting-started-zip
 
-### STEP 5 - Set up Keycloak Server Configuration in Angular App
+### STEP 5 - Keycloak Server Configuration set up in Angular App
 
 ```
 import { KeycloakConfig } from 'keycloak-js';
@@ -40,7 +40,7 @@ const keycloakConfig: KeycloakConfig = {
 };
 ```
 
-### STEP 6- Okta with keycloak integation
+### STEP 6- Integration Okta with Keycloak 
 
 https://ultimatesecurity.pro/post/okta-saml/
 
